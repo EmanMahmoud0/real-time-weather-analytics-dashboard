@@ -1,0 +1,23 @@
+# Power BI temporary / backup files
+*.pbit
+*.bak
+
+# Local Power BI / temporary files
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Secrets / environment files
+.env
+.env.*
+*.secret
+secrets.json
+
+# Local credential / configuration files
+credentials.json
