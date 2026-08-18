@@ -82,6 +82,13 @@ The connection was configured using:
 
 The private API credential is therefore kept outside the public M code and is not included in the public project files.
 
+### ⚠️ Important: Public PBIX Version
+
+> **Do not refresh the public PBIX file.**
+> The public version does not contain the API credentials required to retrieve fresh data. Attempting to refresh the report without configuring your own API credentials may cause the queries to fail.
+
+To refresh the report, configure your own valid Weather API credentials in Power BI.
+
 ---
 
 # 🧹 2. Data Transformation & Cleaning
