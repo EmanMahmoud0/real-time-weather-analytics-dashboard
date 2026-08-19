@@ -269,7 +269,7 @@ The available wind-related information from the API is presented in a compact an
 
 # 🌧️ 9. Rain Analysis
 
-The daily forecast contains two important precipitation-related indicators:
+The daily forecast contains an important precipitation-related indicator:
 
 ### `TotalPrecipitation_MM`
 
