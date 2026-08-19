@@ -22,7 +22,7 @@ The goal was to take a raw API response, understand its structure, transform it 
 - 🌡️ Average, maximum and minimum forecast temperature
 - 💧 Humidity analysis
 - 💨 Wind information
-- 🌧️ Rain probability and precipitation
+- 🌧️ Rain precipitation
 - 🌅 Sunrise and sunset
 - 🌫️ Air quality indicators
 - 🎨 Dynamic air-quality colors
@@ -274,10 +274,6 @@ The daily forecast contains two important precipitation-related indicators:
 ### `TotalPrecipitation_MM`
 
 Represents the expected precipitation amount in millimeters.
-
-Both fields were assigned appropriate numeric data types during the cleaning stage.
-
-The dashboard uses both indicators to provide a clearer picture of expected rainfall conditions.
 
 ---
 
